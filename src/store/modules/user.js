@@ -28,6 +28,7 @@ const mutations = {
 }
 
 const actions = {
+  // 自己改写成async
   // user login
   async login({ commit }, userInfo) {
     const { username, password } = userInfo
